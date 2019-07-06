@@ -12,9 +12,9 @@ the Generalized End-to-End (Wang et al.) loss function is used to train the d-ve
 source PyTorch implementation, found here https://github.com/HarryVolek/PyTorch_Speaker_Verification,
 was modified to create an average embedding for each song. These embeddings are then
 visualized with the manifold learning technique t-SNE to reveal any shared latent characteristics
-of the embeddings. After calculating the embeddings for a subset of the songs, the unsupervised
+of the embeddings (see tsne_vis.ipynb). After calculating the embeddings for a subset of the songs, the unsupervised
 nearest neighbors algorithm, provided by scikit-learn, with a cosine distance metric, is used to determine
-song recommendations.
+song recommendations (see nearest_songs.ipynb).
 
 ## Models
 Two different models were trained to produce d-vectors: a song based model and a genre based model.
