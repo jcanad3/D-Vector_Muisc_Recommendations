@@ -25,7 +25,7 @@ The model tries to maximize the cosine distance between its own centroid of embe
 for the nearest song. This process is further illustrated in the paper "Generalized End-to-End Loss for Speaker
 Verification" published by Wang et al.
 
-#### Genred D-Vector Model
+#### Genre D-Vector Model
 A training batch for the genre based model consisted of random Log Mel-Spectrogram samples from songs within the same
 genre. Five gernes were in every batch, with ten samples per genre. GE2E Loss is still applied in this scenario,
 although the model now learns to maximized the distance between genres instead of just songs. 
